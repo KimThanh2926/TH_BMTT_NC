@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Thực hành An toàn thông tin nâng cao</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body { background: #f4f8fb; }
+    .main-title { font-weight: bold; text-align: center; margin-top: 30px; margin-bottom: 30px; color: #0d47a1; }
+    .logo { display: block; margin-left: auto; margin-right: auto; width: 180px; margin-bottom: 20px; }
+    .card-cipher { transition: box-shadow 0.2s; border: none; border-radius: 16px; }
+    .card-cipher:hover { box-shadow: 0 4px 24px rgba(0,0,0,0.13); }
+    .cipher-icon { font-size: 2.5rem; color: #1976d2; margin-bottom: 10px; }
+    .cipher-desc { color: #555; min-height: 48px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://file1.hutech.edu.vn/file/editor/homepage/stories/hinh34/logo%20CMYK-01.png" alt="hutech" class="logo"/>
+    <h2 class="main-title">BÀI THỰC HÀNH BẢO MẬT THÔNG TIN NÂNG CAO</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="card card-cipher h-100">
+          <div class="card-body text-center">
+            <div class="cipher-icon"><i class="fa-solid fa-lock"></i></div>
+            <h5 class="card-title">Caesar Cipher</h5>
+            <div class="cipher-desc">Mã hóa dịch chuyển ký tự theo khóa số.</div>
+            <a href="/caesar" class="btn btn-primary mt-2">Truy cập</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card card-cipher h-100">
+          <div class="card-body text-center">
+            <div class="cipher-icon"><i class="fa-solid fa-key"></i></div>
+            <h5 class="card-title">Vigenère Cipher</h5>
+            <div class="cipher-desc">Mã hóa dùng khóa là chuỗi ký tự.</div>
+            <a href="/vigenere" class="btn btn-primary mt-2">Truy cập</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card card-cipher h-100">
+          <div class="card-body text-center">
+            <div class="cipher-icon"><i class="fa-solid fa-grip-lines"></i></div>
+            <h5 class="card-title">Rail Fence Cipher</h5>
+            <div class="cipher-desc">Mã hóa dạng đường zigzag nhiều hàng.</div>
+            <a href="/railfence" class="btn btn-primary mt-2">Truy cập</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card card-cipher h-100">
+          <div class="card-body text-center">
+            <div class="cipher-icon"><i class="fa-solid fa-table-cells-large"></i></div>
+            <h5 class="card-title">Playfair Cipher</h5>
+            <div class="cipher-desc">Mã hóa theo cặp ký tự với ma trận 5x5.</div>
+            <a href="/playfair" class="btn btn-primary mt-2">Truy cập</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card card-cipher h-100">
+          <div class="card-body text-center">
+            <div class="cipher-icon"><i class="fa-solid fa-shuffle"></i></div>
+            <h5 class="card-title">Transposition Cipher</h5>
+            <div class="cipher-desc">Hoán vị vị trí ký tự theo khóa số.</div>
+            <a href="/transposition" class="btn btn-primary mt-2">Truy cập</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
