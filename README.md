@@ -15,30 +15,6 @@ Repo này chứa các bài thực hành về các thuật toán và kỹ thuật
 - Hàm băm: MD5, SHA-256, SHA-3, Blake2
 - WebSocket communication
 
-## 📂 Cấu trúc thư mục
-```
-
-Lab02/
-├── app.py
-├── cipher/
-│   ├── caesar/
-│   ├── playfair/
-│   ├── railfence/
-│   ├── transposition/
-│   ├── vigenere/
-│   └── ...
-├── templates/
-└── ...
-
-Lab04/
-├── aes\_rsa\_socket/
-├── dh\_key\_pair/
-├── hash/
-├── websocket/
-└── server\_public\_key.pem
-
-````
-
 ## ⚙ Cách cài đặt
 ```bash
 # Clone repo
